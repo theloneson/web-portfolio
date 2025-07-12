@@ -12,6 +12,7 @@ import landingImage from "@/assets/jazzup-3d-shopfront - Brave 7_10_2025 6_33_37
 import FitTrack from "@/assets/fittrack.png";
 import BukitLawang from "@/assets/Bukit Lawang - North Sumatra's Untamed Paradise - Brave 7_11_2025 4_24_46 PM.png";
 import TopmosFarms from "@/assets/TopmosFarms.png";
+import Omnifood from "@/assets/OMNIFOOD - Personal - Microsoft​ Edge 7_11_2025 9_40_27 AM.png";
 
 const Index = () => {
   const [formData, setFormData] = useState({
@@ -29,11 +30,11 @@ const Index = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Local Storage"],
     },
     {
-      id: "weather-dashboard", 
-      title: "Weather Dashboard",
-      description: "A real-time weather application that displays current conditions and forecasts. Integrated with OpenWeatherMap API for accurate weather data.",
-      image: weatherImage,
-      technologies: ["React", "API Integration", "CSS3"],
+      id: "Omnifood",
+      title: "Omnifood",
+      description: "Omnifood is a front-end website for a modern healthy food service, built with HTML, CSS, and JavaScript. It features a clean layout, interactive sections, and smooth navigation, showcasing core web skills without frameworks.",
+      image: Omnifood,
+      technologies: ["HTML", "JavaScript", "CSS3"],
     },
     {
       id: "Jazz Up E-commerce Website",
@@ -206,7 +207,7 @@ const Index = () => {
           <div className="grid gap-12 items-center lg:grid-cols-2">
             <div className="order-2 lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face" 
+                src="https://i.postimg.cc/Px9LdJX4/My-Image.jpg" 
                 alt="Olorunfemi Amos"
                 className="w-full max-w-md mx-auto rounded-2xl shadow-elegant"
               />
@@ -217,15 +218,14 @@ const Index = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p className="text-lg">
-                  Hello! I'm Olorunfemi, a passionate frontend developer with a deep love for UI/UX design 
-                  and modern web technologies. I specialize in creating beautiful, interactive user interfaces 
-                  that provide seamless user experiences across all devices.
+                  Hello! I'm Olorunfemi Amos, a frontend developer with a strong foundation in HTML, CSS, and modern JavaScript, 
+                  and a passion for building sleek, functional web interfaces using React, TypeScript, and Tailwind CSS.
+                  I leverage advanced tools and automated platforms to speed up UI creation, 
+                  allowing me to focus on clean code, component logic, and performance.
                 </p>
                 <p className="text-lg">
-                  My expertise spans React, TypeScript, Tailwind CSS, and the latest web frameworks. 
-                  I'm constantly exploring new tools and design patterns, staying at the forefront of 
-                  web development to deliver cutting-edge digital solutions that combine functionality 
-                  with exceptional visual design.
+                  I'm constantly learning and improving especially deepening my JavaScript and 
+                  TypeScript skills while actively building projects and growing as a developer.
                 </p>
               </div>
               <div className="mt-8">
@@ -325,7 +325,7 @@ const Index = () => {
                       </a>
                     </Button>
                     <Button variant="ghost" size="lg" asChild className="w-full justify-start">
-                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/olorunfemi-amos-340321252/" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="h-5 w-5 mr-3" />
                         LinkedIn
                       </a>
@@ -364,7 +364,7 @@ const Index = () => {
                 </a>
               </Button>
               <Button variant="ghost" size="lg" asChild className="hover:scale-110 transition-transform">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/olorunfemi-amos-340321252/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-6 w-6" />
                 </a>
               </Button>

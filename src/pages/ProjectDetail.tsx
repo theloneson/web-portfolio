@@ -8,6 +8,8 @@ import landingImage from "@/assets/jazzup-3d-shopfront - Brave 7_10_2025 6_33_37
 import FitTrack from "@/assets/fittrack.png";
 import BukitLawang from "@/assets/Bukit Lawang - North Sumatra's Untamed Paradise - Brave 7_11_2025 4_24_46 PM.png";
 import TopmosFarms from "@/assets/TopmosFarms.png";
+import Omnifood from "@/assets/OMNIFOOD - Personal - Microsoft​ Edge 7_11_2025 9_40_27 AM.png";
+
 
 const ProjectDetail = () => {
   const { projectId } = useParams();
@@ -29,12 +31,12 @@ const ProjectDetail = () => {
       demoUrl: "https://bank-web-wizard-main.netlify.app/",
       githubUrl: "https://github.com/theloneson/bank-web-wizard-main",
     },
-    "weather-dashboard": {
-      title: "Weather Dashboard",
-      description: "A real-time weather application that displays current conditions and forecasts. Integrated with OpenWeatherMap API for accurate weather data.",
-      longDescription: "This weather dashboard showcases my skills in API integration and data visualization. The application fetches real-time weather data and presents it in an intuitive, visually appealing format. Users can search for weather information by city and view detailed forecasts including temperature, humidity, and weather conditions.",
-      image: weatherImage,
-      technologies: ["React", "JavaScript", "CSS3", "OpenWeatherMap API", "Fetch API"],
+    "Omnifood": {
+      title: "Omnifood",
+      description: "Omnifood is a front-end website for a modern healthy food service, built with HTML, CSS, and JavaScript. It features a clean layout, interactive sections, and smooth navigation, showcasing core web skills without frameworks.",
+      longDescription: "Omnifood is a front-end website for a modern, health-focused food delivery service. The project showcases a clean layout, smooth scrolling navigation, and interactive elements like pricing plans and meal selection. Built using only HTML, CSS, and vanilla JavaScript, it highlights core front-end skills without relying on frameworks. While it's not fully responsive or built with React/TypeScript, it reflects a solid understanding of structured layouts, custom styling, and DOM manipulation.",
+      image: Omnifood,
+      technologies: ["HTML", "JavaScript", "CSS3"],
       features: [
         "Real-time weather data",
         "City-based weather search",

@@ -9,6 +9,7 @@ import landingImage from "@/assets/project-landing.jpg";
 import FitTrack from "@/assets/fittrack.png";
 import BukitLawang from "@/assets/Bukit Lawang - North Sumatra's Untamed Paradise - Brave 7_11_2025 4_24_46 PM.png";
 import TopmosFarms from "@/assets/TopmosFarms.png";
+import Omnifood from "@/assets/OMNIFOOD - Personal - Microsoft​ Edge 7_11_2025 9_40_27 AM.png";
 
 const Projects = () => {
   const projects = [
@@ -22,13 +23,13 @@ const Projects = () => {
       githubUrl: "https://github.com/theloneson/bank-web-wizard-main",
     },
     {
-      id: "weather-dashboard",
-      title: "Weather Dashboard",
-      description: "A real-time weather application that displays current conditions and forecasts. Integrated with OpenWeatherMap API for accurate weather data.",
-      image: weatherImage,
-      technologies: ["React", "JavaScript", "CSS3", "Weather API"],
-      liveUrl: "https://demo-weather-app.netlify.app",
-      githubUrl: "https://github.com/olorunfemiamos/weather-dashboard",
+      id: "Omnifood",
+      title: "Omnifood",
+      description: "Omnifood is a front-end website for a modern healthy food service, built with HTML, CSS, and JavaScript. It features a clean layout, interactive sections, and smooth navigation, showcasing core web skills without frameworks.",
+      image: Omnifood,
+      technologies: ["HTML", "JavaScript", "CSS3"],
+      liveUrl: "https://healthyfoodresturant.netlify.app/",
+      githubUrl: "https://github.com/theloneson/Healthy-Food-Restaurant-Website-Template-main",
     },
     {
       id: "Jazz Up E-commerce Website",
