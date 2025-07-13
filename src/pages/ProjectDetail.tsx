@@ -45,8 +45,8 @@ const ProjectDetail = () => {
         "Weather condition icons",
         "Mobile-responsive design"
       ],
-      demoUrl: "https://demo-weather-app.netlify.app",
-      githubUrl: "https://github.com/alexchen/weather-dashboard",
+      demoUrl: "https://healthyfoodresturant.netlify.app/",
+      githubUrl: "https://github.com/theloneson/Healthy-Food-Restaurant-Website-Template-main",
     },
     "Jazz Up E-commerce Website": {
       title: "Jazz Up E-commerce Website",
