@@ -132,7 +132,7 @@ const Index = () => {
               I transform ideas into engaging digital experiences with clean code and attention to detail.
             </p>
             <Button 
-              variant="portfolio" 
+              variant="portfolio"
               size="lg" 
               onClick={() => scrollToSection("projects")}
               className="animate-scale-in group"
