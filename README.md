@@ -9,3 +9,5 @@ This is a modern personal portfolio built with Vite + React, styled using Tailwi
 - React
 - shadcn-ui
 - Tailwind CSS
+- JavaScript
+  
